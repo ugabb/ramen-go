@@ -1,0 +1,114 @@
+@import url("./variables.css");
+
+/* Card Primary */
+
+.card-primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    padding: 20px 16px;
+
+    width: 288px;
+    height: 316px;
+
+    border-radius: 11px;
+
+
+    background-color: var(--off-white-color);
+
+    box-shadow: 0px 4px 12px 0px #E0DBBF99;
+}
+
+.card-primary .card-image {
+    width: 104px;
+    height: 104px;
+}
+
+.card-primary .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 16px 0;
+}
+
+.card-primary .card-description {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--black-color);  
+    margin: 0;      
+}
+
+.card-primary .card-title {
+    font-size: 20px;
+    font-weight: 900;
+    color: var(--blue-color);  
+    margin: 0;      
+}
+
+.card-primary .card-price {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--red-color);
+}
+
+
+
+
+
+/* Card Secondary */
+.card-secondary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    padding: 20px 16px;
+
+    width: 288px;
+    height: 316px;
+
+    border-radius: 11px;
+
+
+    background-color: var(--blue-color);
+
+    box-shadow: 0px 4px 12px 0px #E0DBBF99;
+}
+
+.card-secondary .card-image {
+    width: 104px;
+    height: 104px;
+}
+
+.card-secondary .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 16px 0;
+}
+
+.card-secondary .card-description {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--white);  
+    margin: 0;      
+}
+
+.card-secondary .card-title {
+    font-size: 20px;
+    font-weight: 900;
+    color: var(--white);  
+    margin: 0;      
+}
+
+.card-secondary .card-price {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--yellow-color);
+}

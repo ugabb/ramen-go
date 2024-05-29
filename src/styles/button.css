@@ -1,0 +1,57 @@
+@import url("./variables.css");
+
+.btn-primary {
+    color: var(--white);
+    background-color: var(--blue-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 213px;
+    height: 60px;
+    padding: 16px 20px;
+    gap: 0px;
+    opacity: 1;
+
+    border-radius: 50px;
+    border: none;
+
+    font-weight: 800;
+    text-transform: uppercase;
+
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: var(--black-color);
+}
+
+.btn-secondary {
+    color: var(--white);
+    background-color: var(--light-grey);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 213px;
+    height: 60px;
+    padding: 16px 20px;
+    gap: 0px;
+    opacity: 1;
+
+    border-radius: 50px;
+    border: none;
+
+    font-weight: 800;
+    text-transform: uppercase;
+
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: var(--blue-color);
+}
