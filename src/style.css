@@ -1,18 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Roboto:wght@400;700&display=swap');
+@import url("./styles/variables.css");
 
-:root{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-
-
-  --black-color: #000000;
-  --blue-color: #1820EF;
-  --red-color: #FF4E42;
-  --yellow-color: #FFC024;
-  --off-white-color: #FAFAED;
 }
 
-body{
+body {
   font-family: "M PLUS Rounded 1c", sans-serif;
+  background-color: var(--bg-color);
+  /* background-color: #ccc; */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  height: 100vh;
+  flex-direction: column;
+
+  padding: 20px 30px;
+
+  background-image: url("/assets/red-pattern.png");
+}
+
+.ramen {
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--yellow-color);
+}
+
+.go-title {
+  font-size: 120px;
+  font-weight: 900;
+  line-height: 100px;
+  color: var(--white);
+}
+
+.home-description {
+  font-family: Rounded Mplus 1c;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  color: var(--white);
+}
+
+.select {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 40px;
+  padding: 16px;
+}
+
+.select h4 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 31px;
+  text-align: center;
+}
+
+.select p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+.button-container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
 }

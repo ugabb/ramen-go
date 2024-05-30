@@ -7,40 +7,125 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./src/styles/button.css" />
   <link rel="stylesheet" href="./src/styles/card.css" />
+  <link rel="stylesheet" href="./src/styles/carousel.css" />
   <link rel="stylesheet" href="./src/style.css" />
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+  <link rel="stylesheet" href="./node_modules/@splidejs/splide/dist/css/splide-core.min.css">
+
+  <!-- <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css"> -->
   <title>Ramen Go</title>
 </head>
 
 <body>
-  <div>
-
-    <div class="card-primary">
-      <div class="card-content">
-        <img class="card-image" src="/assets/salt/inactive.png" alt="ramen" />
-        <h1 class="card-title">Salt</h1>
-        <p class="card-description">Simple like the seawater, nothing more </p>
-      </div>
-      <p class="card-price">US$ 10</p>
-    </div>
-    <div class="card-secondary">
-      <div class="card-content">
-        <img class="card-image" src="/assets/salt/active.png" alt="ramen" />
-        <h1 class="card-title">Salt</h1>
-        <p class="card-description">Simple like the seawater, nothing more </p>
-      </div>
-      <p class="card-price">US$ 10</p>
+  <main>
+    <div class="home">
+      <img src="/ramen-go-logo.png" alt="Ramen Go logo">
+      <img src="/Ilustracao.png" alt="Ramen Go logo">
+      <h2 class="ramen">ラーメン</h2>
+      <h1 class="go-title">GO!</h1>
+      <p class="home-description">Enjoy a good ramen in the comfort of your house. Create your own ramen and choose your
+        favorite flavour
+        combination!</p>
     </div>
 
-    <button class="btn-primary">
-      <p>order now</p>
-      <img src="/assets/arrow-yellow.png" alt="">
-    </button>
-    <button class="btn-secondary">
-      <p>Place my order</p>
-      <img src="/assets/arrow-white.png" alt="">
-    </button>
-  </div>
+
+    <div class="select">
+      <h4>First things first: select your favorite broth.</h4>
+      <p>It will give the whole flavor on your ramen soup. </p>
+      <section class="splide broth-slider" aria-label="Broth Slider">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="card-primary">
+                <div class="card-content">
+                  <img class="card-image" src="/assets/salt/inactive.png" alt="ramen" />
+                  <h1 class="card-title">Salt</h1>
+                  <p class="card-description">Simple like the seawater, nothing more </p>
+                </div>
+                <p class="card-price">US$ 10</p>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="card-primary">
+                <div class="card-content">
+                  <img class="card-image" src="/assets/salt/inactive.png" alt="ramen" />
+                  <h1 class="card-title">Salt</h1>
+                  <p class="card-description">Simple like the seawater, nothing more </p>
+                </div>
+                <p class="card-price">US$ 10</p>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="card-primary">
+                <div class="card-content">
+                  <img class="card-image" src="/assets/salt/inactive.png" alt="ramen" />
+                  <h1 class="card-title">Salt</h1>
+                  <p class="card-description">Simple like the seawater, nothing more </p>
+                </div>
+                <p class="card-price">US$ 10</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+
+    <div class="select">
+      <h4>It’s time to choose (or not) your meat!</h4>
+      <p>Some people love, some don’t. We have options for all tastes.</p>
+      <section class="splide meat-slider" aria-label="Meat Slider">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="card-primary">
+                <div class="card-content">
+                  <img class="card-image" src="/assets/salt/inactive.png" alt="ramen" />
+                  <h1 class="card-title">Salt</h1>
+                  <p class="card-description">Simple like the seawater, nothing more </p>
+                </div>
+                <p class="card-price">US$ 10</p>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="card-primary">
+                <div class="card-content">
+                  <img class="card-image" src="/assets/salt/inactive.png" alt="ramen" />
+                  <h1 class="card-title">Salt</h1>
+                  <p class="card-description">Simple like the seawater, nothing more </p>
+                </div>
+                <p class="card-price">US$ 10</p>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="card-primary">
+                <div class="card-content">
+                  <img class="card-image" src="/assets/salt/inactive.png" alt="ramen" />
+                  <h1 class="card-title">Salt</h1>
+                  <p class="card-description">Simple like the seawater, nothing more </p>
+                </div>
+                <p class="card-price">US$ 10</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+
+    <div class="button-container-center">
+      <button class="btn-secondary">
+        <p>Place my order</p>
+        <img src="/assets/arrow-white.png" alt="">
+      </button>
+    </div>
+
+  </main>
+
+
+
   <script type="module" src="/src/main.ts"></script>
+  <script src="path-to-the-file/splide.min.js"></script>
 </body>
 
 </html>

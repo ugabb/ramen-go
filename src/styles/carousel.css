@@ -1,0 +1,27 @@
+@import url("./variables.css");
+
+
+.carousel-dot-container {
+    display: flex;
+    gap: 1rem;
+}
+.carousel-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    border: none;
+    background-color: var(--sand-color);
+}
+
+.is-active[aria-selected="true"]{
+    background-color: var(--red-color);
+    width: 36px;
+    height: 12px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.splide__list{
+    display: flex;
+    gap: 10px;
+}
